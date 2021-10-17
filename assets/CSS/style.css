@@ -1,0 +1,106 @@
+#navbar-brand {
+    margin-left: 50px;
+    font-family: 'Oswald', sans-serif;
+    color: #5a5a5a;
+    visibility: hidden;
+}
+
+.nav-link {
+    font-family: 'Open Sans', sans-serif;
+    visibility: hidden;
+}
+
+.main{
+    margin-top: 50px;
+    height: 1200px;
+}
+
+.header{
+    height: 560px;
+}
+
+.introTxt{
+    font-family: 'Oswald', sans-serif;
+    color: #5a5a5a;
+    font-size: 40pt;
+    visibility: hidden;
+}
+
+.avatar{
+    height: 358px;
+    box-shadow: 15px -13px 15px #5a5a5a;
+}
+
+.skill-box{
+    height: 500px;
+    box-shadow: 5px -3px 15px #5a5a5a;
+    visibility: hidden;
+}
+
+.title {
+    font-family: 'Oswald', sans-serif;
+}
+
+.sub-title{
+    font-family: 'Open Sans', sans-serif;
+    color: #5a5a5a;
+}
+
+.skill-img{
+    height: 80px;
+}
+
+.skill-txt{
+    width: 100px;
+    margin-left: 10px;
+    padding-top: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: xx-large;
+}
+
+@media screen and (max-width: 991px) {
+
+    .main{
+        height: 1250px;
+    }
+
+    #navbar-brand {
+        margin-left: 10px;
+        visibility: visible;
+    }
+
+    .nav-link{
+        visibility: visible;
+    }
+
+    .introTxt{
+        margin-left: 10px;
+        font-size: 30pt;
+        width: 300px;
+    }
+
+    .avatar{
+        margin-top: 10px;
+        height: 250px;
+    }
+
+    .skill-box{
+        height: 450px;
+        box-shadow: 5px -3px 15px #5a5a5a;
+        visibility: hidden;
+        margin: 0 20px 0 20px;
+    }
+    
+
+    .skill-img{
+        height: 40px;
+    }
+    
+    .skill-txt{
+        width: 50px;
+        margin-left: 10px;
+        padding-top: 5px;
+        font-family: 'Oswald', sans-serif;
+        font-size: x-large;
+    }
+}
