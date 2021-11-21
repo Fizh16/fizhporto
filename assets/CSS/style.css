@@ -1,106 +1,113 @@
-#navbar-brand {
-    margin-left: 50px;
-    font-family: 'Oswald', sans-serif;
-    color: #5a5a5a;
-    visibility: hidden;
+.font-lora {
+    font-family: 'Lora', serif;
 }
 
-.nav-link {
-    font-family: 'Open Sans', sans-serif;
-    visibility: hidden;
+.font-jetbrains {
+    font-family: 'JetBrains Mono', monospace;
 }
 
-.main{
-    margin-top: 50px;
-    height: 1200px;
+.font-14{
+    font-size: 14px;
 }
 
-.header{
-    height: 560px;
+.font-15{
+    font-size: 15px;
 }
 
-.introTxt{
-    font-family: 'Oswald', sans-serif;
-    color: #5a5a5a;
-    font-size: 40pt;
-    visibility: hidden;
+.font-20{
+    font-size: 20px;
 }
 
-.avatar{
-    height: 358px;
-    box-shadow: 15px -13px 15px #5a5a5a;
+.font-color {
+    color: #3C3C3C;
 }
 
-.skill-box{
-    height: 500px;
-    box-shadow: 5px -3px 15px #5a5a5a;
-    visibility: hidden;
+.height-default{
+    height: 690px;
 }
 
-.title {
-    font-family: 'Oswald', sans-serif;
+.background-light{
+    background-color: #F5F5F5;
 }
 
-.sub-title{
-    font-family: 'Open Sans', sans-serif;
-    color: #5a5a5a;
+.row-landing {
+    height: 566px;
 }
 
-.skill-img{
-    height: 80px;
+.row-content {
+    height: 604px;
 }
 
-.skill-txt{
-    width: 100px;
-    margin-left: 10px;
-    padding-top: 20px;
-    font-family: 'Oswald', sans-serif;
-    font-size: xx-large;
+.footer{
+    background-color: #141414;
 }
 
-@media screen and (max-width: 991px) {
+#bg-title{
+    overflow: hidden;
+}
 
-    .main{
-        height: 1250px;
+#bg-project{
+    background-image: url(../img/anime_web_design.jpg);
+    background-size: cover; 
+    background-attachment: fixed; 
+    background-position: center;
+    opacity: 0;
+}
+
+.img-project{
+    width: 500px;
+    position: absolute;
+    z-index: 0;
+}
+
+.text-project{
+    padding-left: 200px;
+    position: absolute;
+    z-index: 1;
+    top: 200px;
+}
+
+.content-3{
+    position: relative;
+}
+
+.link-contact:hover{
+    color: black;
+}
+
+@media screen and (max-width: 885px) and (min-width: 768px) {
+    .img-project{
+        right: 50px;
     }
-
-    #navbar-brand {
-        margin-left: 10px;
-        visibility: visible;
+    
+    .text-project{
+        left: -100px;
     }
+}
 
-    .nav-link{
-        visibility: visible;
-    }
-
-    .introTxt{
-        margin-left: 10px;
-        font-size: 30pt;
+@media screen and (max-width: 750px) {
+    .img-project{
+        position: static;
         width: 300px;
-    }
-
-    .avatar{
-        margin-top: 10px;
-        height: 250px;
-    }
-
-    .skill-box{
-        height: 450px;
-        box-shadow: 5px -3px 15px #5a5a5a;
-        visibility: hidden;
-        margin: 0 20px 0 20px;
+        margin-top: 50px;
     }
     
-
-    .skill-img{
-        height: 40px;
+    .text-project{
+        position: static;
+        padding-left: 0px;
+        text-align: center;
+        margin-top: 100px;
     }
-    
-    .skill-txt{
-        width: 50px;
-        margin-left: 10px;
-        padding-top: 5px;
-        font-family: 'Oswald', sans-serif;
-        font-size: x-large;
+
+    .row-content {
+        height: auto;
+    }
+
+    #about {
+        margin-top: 100px;
+    }
+
+    #bg-project{
+        background-size: 1500px; 
     }
 }
