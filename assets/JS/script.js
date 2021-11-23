@@ -1,5 +1,5 @@
 // Landing Page Animation
-ScrollReveal().reveal('#title-name', { duration : 1500 });
+ScrollReveal().reveal('#title-name', { duration : 1500, opacity: 0 });
 ScrollReveal().reveal('#sub-title', {
     duration : 1500,
     delay : 300
@@ -9,7 +9,8 @@ ScrollReveal().reveal('#sub-title', {
 ScrollReveal().reveal('#menu1', { duration : 1500 });
 ScrollReveal().reveal('#title-project1', { 
     duration : 1500,
-    delay : 200
+    delay : 200,
+    opacity: 0
 });
 ScrollReveal().reveal('#img-project-id', { 
     duration : 1500,
