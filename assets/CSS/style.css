@@ -42,6 +42,14 @@
     background-color: #141414;
 }
 
+#title-name {
+    visibility: hidden;
+}
+
+#sub-title {
+    visibility: hidden;
+}
+
 #home{
     overflow: hidden;
 }
