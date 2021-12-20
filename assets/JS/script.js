@@ -34,9 +34,13 @@ ScrollReveal().reveal('#languages', {
     duration : 1500,
     delay : 400
 });
-ScrollReveal().reveal('#contact', { 
+ScrollReveal().reveal('#framework', { 
     duration : 1500,
     delay : 600
+});
+ScrollReveal().reveal('#contact', { 
+    duration : 1500,
+    delay : 800
 });
 
 (function ( $ ) {
